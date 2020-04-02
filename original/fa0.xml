@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="webead.xsl"?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead audience="external" relatedencoding="USMARC">
+	<eadheader findaidstatus="edited-full-draft" scriptencoding="iso15924" dateencoding="iso8601"
+		countryencoding="iso3166-1" repositoryencoding="iso15511" langencoding="iso639-2">
+		<eadid countrycode="us" mainagencycode="MnHi">00008</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>AMERICAN CHEMICAL SOCIETY: </titleproper>
+				<subtitle>An Inventory of Its Records at the Minnesota Historical Society</subtitle>
+				<sponsor>National Historical Publications and Records Commission.</sponsor>
+			</titlestmt>
+			<publicationstmt>
+				<publisher encodinganalog="Publisher">Minnesota Historical Society</publisher>
+				<address><addressline>St. Paul MN.</addressline></address>
+			</publicationstmt>
+		             <seriesstmt><p>Manuscripts Collection</p></seriesstmt>         </filedesc>
+		<profiledesc>
+			<creation>Finding aid encoded by Lyda Morehouse, <date era="ce" calendar="gregorian"
+					>November 9, 1999.</date>
+			</creation>
+			<langusage>Finding aid written in<language langcode="eng">English</language></langusage>
+		</profiledesc>
+		<revisiondesc>
+			<change>
+				<date>June 2011</date>
+				<item>Additions to collection and inventory updated by Meagan Kellom and David B.
+					Peterson</item>
+			</change>
+			<change>
+				<date>August 2008</date>
+				<item>Converted from EAD Version 1.0 to Version 2002 by Monica Manny Ralston, Daniel
+					Sher, and Joyce Chapman.</item>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<archdesc relatedencoding="MARC" type="inventory" level="collection">
+		<did id="a1">
+			<head>OVERVIEW</head>
+			<repository label="Repository:">Minnesota Historical Society</repository>
+			
+			
+			<origination label="Creator:" encodinganalog="110">
+				
+				<corpname encodinganalog="110" role="creator">
+					American Chemical Society. Minnesota
+					Section.</corpname>
+			</origination>
+			
+			
+			<unittitle label="Title:">American Chemical Society records.</unittitle>
+			<unitdate label="Date:" encodinganalog="245$f" normal="1913/2010" type="inclusive"
+				>1913-2010.</unitdate>
+			<langmaterial label="Language of Materials">Materials in <language langcode="eng"
+					>English.</language>
+			</langmaterial>
+			<abstract label="Abstract:">Organizational records of the Section include minutes,
+				reports, membership data, financial records, and correspondence, as well as
+				historical information and official documents such as the charter, articles of
+				incorporation, and bylaws. Also included are files concerning meetings, conferences,
+				and symposia, particularly the series of undergraduate symposia held annually at
+				various colleges and universities throughout Minnesota.</abstract>
+			<physdesc label="Quantity:">5.2 cubic feet (5 boxes, and 1 oversize folder in a partial
+				box).</physdesc>
+			<physloc label="Location:">See <ref target="a9">Detailed Description</ref> section for
+				shelf locations.</physloc>
+		</did>
+		<bioghist>
+			<head id="a2" altrender="history">HISTORICAL NOTE </head>
+			<p>The Minnesota Section of the American Chemical Society was chartered in 1906 and
+				hosted its first national meeting in 1910. In 1965, topical groups were organized to
+				support specific interest areas such as inorganic, analytical, and polymer
+				chemistry. Beginning in the 1950s, the section published its own journal, <emph
+					render="italic">Minnesota Chemist</emph>. </p>
+		</bioghist>
+		<descgrp type="admininfo">
+			<head id="a8">ADMINISTRATIVE INFORMATION</head>
+			<prefercite>
+				<head>Preferred Citation:</head>
+				<p><emph render="italic">[Indicate the cited item and/or series here].</emph>
+					American Chemical Society Records. Minnesota Historical Society.</p>
+				<p><emph render="italic">See the Chicago Manual of Style for additional
+						examples.</emph></p>
+			</prefercite>
+			<acqinfo>
+				<head>Accession Information:</head>
+				<p>Accession number: 12,671; 12,842; 13,200; 13,222; 13,383; 13,345; 13,608; 13,788;
+					13,948; 14,183; 14,475; 14,710; 14,814; 15,025; 15,366; 16,326; 16,554 </p>
+			</acqinfo>
+			<processinfo>
+				<head>Processing Information:</head>
+				<p>Processed by: Kathryn A. Johnson; Lara D. Friedman-Shedlov, April 1999; Meagan Kellom and David B.
+					Peterson, June 2011.</p>
+				<p><extref actuate="onrequest" audience="external" show="new"
+						href="http://www.archives.gov/nhprc/">
+						<extptr show="embed" altrender="right" title="NHPRC logo"
+							href="images/nhprc-178x178.jpg"/></extref></p>
+				<p>Processing and cataloging of this collection was supported with a Basic Project
+					grant awarded by the National Historical Publications and Records Commission
+						<extref actuate="onrequest" audience="external"
+						href="http://www.archives.gov/nhprc/">(NHPRC)</extref>.</p>
+				<p>Catalog ID number: 09-00027959</p>
+			</processinfo>
+		</descgrp>
+		<controlaccess>
+			<head id="a7">CATALOG HEADINGS</head>
+			
+			<controlaccess>
+				<head>Topics:</head>
+				<subject>Chemistry -- Minnesota -- Societies, etc.</subject>
+				<subject>Trade and professional associations -- Minnesota.</subject>
+			</controlaccess>
+			<controlaccess>
+				<head>Organization:</head>
+				<corpname>American Chemical Society.</corpname>
+			</controlaccess>
+			<controlaccess>
+				<head>Occupation:</head>
+				<occupation>Chemists -- Minnesota.</occupation>
+			</controlaccess>
+		</controlaccess>
+		<relatedmaterial>
+			<head id="a5">RELATED MATERIALS</head>
+			<p><emph render="italic">Along Scientific Trails: A Series of Radio Talks,</emph>
+				published by the American Chemical Society, Minnesota Section, is separately
+				cataloged in the Minnesota Historical Society book collection.</p>
+			<p><emph render="italic">Minnesota Chemist</emph>, the official publication of the
+				American Chemical Society, Minnesota Section, is separately cataloged in the
+				Minnesota Historical Society serials collection. </p>
+		</relatedmaterial>
+		<dsc type="combined" audience="external">
+			<head id="a9">DETAILED DESCRIPTION </head>
+			<c01>
+				<did>
+					<physloc>149.A.20.7B</physloc>
+					<unittitle>History and background information.</unittitle>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Articles of incorporation, 1959.</unittitle>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Bylaws, 1936, 1967, 1974, 1983, 1984-1988. </unittitle>
+					<physdesc>11 folders.</physdesc>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Bylaws correspondence, 1946-1966, 1975-1979.</unittitle>
+					<physdesc>2 folders.</physdesc>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Charter information, 1966-1968.</unittitle>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Operating manuals, 1966-1969.</unittitle>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Executive Committee:</unittitle>
+				</did>
+				<c02>
+					<did>
+						<unittitle>Minutes, January 1946-June 1995. </unittitle>
+						<physdesc>8 folders.</physdesc>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Significant actions of the Executive Committee,
+							1950-1983.</unittitle>
+						<physdesc>2 folders.</physdesc>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Committee membership lists, 1952-1965, 1977-1989, 1992,
+							1995.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Correspondence, March 1948, June 1950-November 1954.</unittitle>
+					</did>
+				</c02>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Annual reports, 1948-1983. </unittitle>
+					<physdesc>5 folders.</physdesc>
+				</did>
+				<scopecontent>
+					<p>Missing: 1951, 1954, 1959.</p>
+				</scopecontent>
+			</c01>
+			<c01>
+				<did>
+					<physloc>149.A.20.8F</physloc>
+					<unittitle>Annual reports, 1984-1994.</unittitle>
+					<physdesc>4 folders.</physdesc>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Monthly membership meeting files, November 1945-April 1983. </unittitle>
+					<physdesc>6 folders.</physdesc>
+				</did>
+				<scopecontent>
+					<p>Includes notices, correspondence, programs, speech abstracts, and related
+						papers; 1966-1983 files incomplete.</p>
+				</scopecontent>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Lists of monthly meetings, 1985-1986.</unittitle>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<physloc>129.E.1.1B</physloc>
+					<unittitle>Meeting files,</unittitle>
+					<unitdate>1968-1987, 2010.</unitdate>
+					<physdesc>17 folders.</physdesc>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<physloc>149.A.20.8F</physloc>
+					<unittitle>Membership files:</unittitle>
+				</did>
+				<c02>
+					<did>
+						<unittitle>Lists and related papers, 1934-1963, 1965, 1966,
+							1968-1970.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Correspondence of student affiliates, 1947-1954.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Minnesota-Wisconsin boundary area members: Correspondence and
+							miscellany, 1959, 1963-1964, 1968-1969.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Correspondence and miscellaneous papers, 1950,
+							1955-1981.</unittitle>
+					</did>
+					<scopecontent>
+						<p>Includes membership committee correspondence.</p>
+					</scopecontent>
+				</c02>
+				<c02>
+					<did>
+						<physloc>129.E.1.1B</physloc>
+						<unittitle>Membership log,</unittitle>
+						<unitdate>1980.</unitdate>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Rosters,</unittitle>
+						<unitdate>1985-1986.</unitdate>
+					</did>
+				</c02>
+			</c01>
+			<c01>
+				<did>
+					<physloc>149.A.20.8F</physloc>
+					<unittitle>Officers and committee chairs:</unittitle>
+				</did>
+				<c02>
+					<did>
+						<unittitle>Lists, 1939-1978. </unittitle>
+						<physdesc>2 folders.</physdesc>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Miscellaneous papers, 1929, 1952-1983.</unittitle>
+						<physdesc>2 folders.</physdesc>
+					</did>
+					<scopecontent>
+						<p>Includes elections and nominating committee.</p>
+					</scopecontent>
+				</c02>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Committee files:</unittitle>
+				</did>
+				<c02>
+					<did>
+						<unittitle>Awards, 1934, 1952-1984. </unittitle>
+						<physdesc>3 folders.</physdesc>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Budget task force, 1992-1993.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Education, 1951-1980.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Polymer topical group, 1963-1977.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<physloc>149.B.9.1B</physloc>
+						<unittitle>Professional status, 1945-1955, 1960-1973.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Publicity, 1954-1966. </unittitle>
+					</did>
+					<scopecontent>
+						<p>Includes newspaper clippings.</p>
+					</scopecontent>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Speakers Bureau, 1957-1983.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Miscellaneous committees: Arrangements-Symposium,
+							1950-1984.</unittitle>
+					</did>
+					<scopecontent>
+						<p>Includes Minnesota Chemist Committee.</p>
+					</scopecontent>
+				</c02>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Financial records:</unittitle>
+				</did>
+				<c02>
+					<did>
+						<unittitle>Treasurers' reports and budgets, 1929, 1939-1947, 1950-1975.
+						</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Correspondence and related papers, 1950-1974.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Treasurer's records:</unittitle>
+					</did>
+					<c03>
+						<did>
+							<unittitle>Norman W. Gill, 1974-1976. </unittitle>
+							<physdesc>5 folders.</physdesc>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Pat Fish, 1976-June 1978. </unittitle>
+							<physdesc>3 folders.</physdesc>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>Miscellaneous records, 1978-1995.</unittitle>
+						</did>
+					</c03>
+				</c02>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Symposiums, conferences, and meetings:</unittitle>
+				</did>
+				<c02>
+					<did>
+						<unittitle>Midwest Conference of Local Sectional Activities, 1966,
+							1970.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Great Lakes Regional Meetings: </unittitle>
+					</did>
+					<c03>
+						<did>
+							<unittitle>June 1966-June 1980.</unittitle>
+						</did>
+						<scopecontent>
+							<p>Incomplete.</p>
+						</scopecontent>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>St. Paul, June 1975.</unittitle>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<unittitle>St. Paul, June 1983.</unittitle>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<physloc>129.E.1.1B</physloc>
+							<unitdate>1972-1976.</unitdate>
+						</did>
+					</c03>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Spring symposium,</unittitle>
+						<unitdate>1969.</unitdate>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<physloc>149.B.9.1B</physloc>
+						<unittitle>Minnesota section symposiums,</unittitle>
+						<unitdate>1947-1970.</unitdate>
+						<physdesc>2 folders.</physdesc>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Undergraduate symposiums in chemistry, 1958-1966. </unittitle>
+						<physdesc>3 folders.</physdesc>
+					</did>
+					<scopecontent>
+						<p>Symposiums held annually at various colleges and universities throughout
+							Minnesota.</p>
+					</scopecontent>
+				</c02>
+				<c02>
+					<did>
+						<physloc>149.A.1.5B</physloc>
+						<unittitle>Undergraduate symposiums in chemistry, 1967-1994. </unittitle>
+						<physdesc>5 folders.</physdesc>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Miscellaneous conferences, 1990.</unittitle>
+					</did>
+				</c02>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>General correspondence files, 1958, 1961-1988, 1992-1993. </unittitle>
+					<physdesc>4 folders.</physdesc>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Federal legislation regarding creation of office of Technological
+						Mobilization (1942-1943) and National Science Foundation (1945,
+						1947).</unittitle>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>First newsletter of the Minnesota Section, October 25,
+						1949.</unittitle>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Retired chemists' pensions, 1960.</unittitle>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>Local section PR grant report, 1994.</unittitle>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<unittitle>American Chemical Society (national organization):</unittitle>
+				</did>
+				<c02>
+					<did>
+						<unittitle>Charters, constitutions, and bylaws, 1970, 1975,
+							1978.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Council minutes and related papers, </unittitle>
+					</did>
+					<c03>
+						<did>
+							<unitdate>1961-1962, 1966.</unitdate>
+						</did>
+					</c03>
+					<c03>
+						<did>
+							<physloc>129.E.1.1B</physloc>
+							<unitdate>1986.</unitdate>
+							<physdesc>2 volumes.</physdesc>
+						</did>
+					</c03>
+				</c02>
+				<c02>
+					<did>
+						<physloc>149.A.1.5B</physloc>
+						<unittitle>Officers, council members, and board minutes,
+							1971-1980.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Local sections' activity reports, 1962, 1963, 1966,
+							1971.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>National meetings held in Minnesota, 1929. </unittitle>
+						<physdesc>2 folders.</physdesc>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Seventy-fifth anniversary celebration correspondence,
+							1951.</unittitle>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Miscellaneous printed materials, 1913, 1929, 1959-1987. </unittitle>
+						<physdesc>2 folders.</physdesc>
+					</did>
+				</c02>
+				<c02>
+					<did>
+						<unittitle>Miscellaneous pamphlets and booklets, 1950-1986. 2
+							packets.</unittitle>
+					</did>
+				</c02>
+			</c01>
+			<c01>
+				<did>
+					<physloc>129.E.1.1B</physloc>
+					<unittitle>Miniature tape dispenser, </unittitle>
+					<unitdate>undated and 1955-1960.</unitdate>
+				</did>
+			</c01>
+			<c01>
+				<did>
+					<physloc>148.C.3.4F</physloc>
+					<unittitle>Minnesota Section membership roster, September 18, 1968.</unittitle>
+				</did>
+				<scopecontent>
+					<p>Bound computer printout listing 1,382 names.</p>
+				</scopecontent>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

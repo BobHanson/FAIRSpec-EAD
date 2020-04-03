@@ -137,7 +137,7 @@
 						<unittitle>NMR</unittitle>
 					</did>
 					<dao role="nmr:dataset"
-						href="https://data.hpc.imperial.ac.uk/resolve/?doi=6681&amp;file=1">
+						href="resolve/?doi=6681&amp;file=1">
 						<daodesc>
 							<note type="type">
 								<p>Bruker Dataset</p>
@@ -154,7 +154,7 @@
 						</daodesc>
 					</dao>
 					<dao role="nmr:dataset"
-						href="https://data.hpc.imperial.ac.uk/resolve/?doi=6681&amp;file=2">
+						href="resolve/?doi=6681&amp;file=2">
 						<daodesc>
 							<note type="type">
 								<p>Bruker Dataset</p>
@@ -171,7 +171,7 @@
 						</daodesc>
 					</dao>
 					<dao role="nmr:dataset"
-						href="https://data.hpc.imperial.ac.uk/resolve/?doi=6681&amp;file=3">
+						href="resolve/?doi=6681&amp;file=3">
 						<daodesc>
 							<note type="type">
 								<p>Mestranova Dataset</p>
@@ -188,7 +188,7 @@
 						</daodesc>
 					</dao>
 					<dao role="nmr:model cdx"
-						href="https://data.hpc.imperial.ac.uk/resolve/?doi=6681&amp;file=4">
+						href="resolve/?doi=6681&amp;file=4">
 						<daodesc>
 							<note type="type">
 								<p>Chemdraw connection file</p>

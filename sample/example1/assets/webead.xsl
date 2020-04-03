@@ -14,7 +14,7 @@
 				<xsl:element name="title">
 					<xsl:value-of
 						select="//eadheader/filedesc/titlestmt/titleproper" />
-					Finding Aids : MNHS.ORG
+					Finding Aids : IUPAC FAIRSpec prototype only
 				</xsl:element>
 
 
@@ -172,32 +172,32 @@
 				</xsl:for-each>
 				<style type="text/css" media="screen" title="Default">
 					@import
-					url("http://www.mnhs.org/web_assets/stylesheets/mnhs_global_text.css");
+					url("assets/mnhs_global_text.css");
 					@import
-					url("http://www.mnhs.org/web_assets/stylesheets/mnhs_library.css");
+					url("assets/mnhs_library.css");
 					@import
-					url("http://www2.mnhs.org/library/findaids/mnhs_findingaids.css");
+					url("assets/mnhs_findingaids.css");
 				</style>
 
 				<!--SOLR Search Stylesheet -->
 				<link
-					href="http://www.mnhs.org/web_assets/stylesheets/dropnav/solr-search-standard.css"
+					href="assets/solr-search-standard.css"
 					type="text/css" media="screen" />
 
 				<!-- EAD Print Stylesheet -->
-				<link href="eadprint.css" rel="stylesheet" media="print"
+				<link href="assets/eadprint.css" rel="stylesheet" media="print"
 					type="text/css" />
 
 				<!-- ========== MHS JAVASCRIPT ========== -->
 
 				<script type="text/javascript"
-					src="http://www.mnhs.org/web_assets/js/jquery-1.5.min.js"></script>
+					src="assets/jquery-1.5.min.js"></script>
 				<script type="text/javascript"
-					src="http://www.mnhs.org/web_assets/js/jquery.hoverIntent.min.js"></script>
+					src="assets/jquery.hoverIntent.min.js"></script>
 				<script type="text/javascript"
-					src="http://www.mnhs.org/web_assets/js/jquery.client.min.js"></script>
+					src="assets/jquery.client.min.js"></script>
 				<script type="text/javascript"
-					src="http://www.mnhs.org/web_assets/js/jquery.topzindex.min.js"></script>
+					src="assets/jquery.topzindex.min.js"></script>
 				<!--<script type="text/javascript" src="http://www.mnhs.org/web_assets/js/jquery.mhs_dropnav.js"></script>
 				<script
 					src="http://legacy.mnhs.org/sites/all/includes/ismobile.php"
@@ -211,13 +211,16 @@
 
 				<!--<link rel="stylesheet" href="http://www.mnhs.org/web_assets/stylesheets/dropnav/drop-navigation.css" 
 					type="text/css" media="screen" /> -->
+				
+				<!--  BH	
+					
 				<link rel="stylesheet"
 					href="http://www.mnhs.org/web_assets/stylesheets/mega/css/reset.css"
-					type="text/css" media="screen" />
+					type="text/css" media="screen" />   -->
 				<!-- Reset -->
-				<link rel="stylesheet"
-					href="http://www.mnhs.org/web_assets/stylesheets/mega/menu.css"
-					type="text/css" media="screen" />
+				<!--  BH <link rel="stylesheet"  href="http://www.mnhs.org/web_assets/stylesheets/mega/menu.css"
+					type="text/css" media="screen" />   -->
+					
 				<!-- Menu -->
 				<!--[if IE 6]> <link rel="stylesheet" href="http://www.mnhs.org/web_assets/stylesheets/mega/ie/ie6.css" 
 					type="text/css" media="screen" /> <![endif] -->
@@ -231,19 +234,6 @@
 					ol li a {
 					padding:6px 4px 8px 5px;}
 				</style>
-
-
-				<!-- Template Header (Masthead) -->
-				<style>
-					.findaids-brand_top{
-					display:block;
-					width:100%;
-					background:url(http://www.mnhs.org/library/findaids/images/findingaids-masthead.jpg)
-					top left no-repeat;
-					height:105px;
-					border-top:10px #fff solid;}
-				</style>
-				<!--End Template Header -->
 
 
 			</xsl:element>
@@ -306,7 +296,7 @@
 					var arrow =
 					document.getElementById("x" +(ids[i]));
 					arrow.src =
-					"images/DownArrowBlue.png";
+					"assets/DownArrowBlue.png";
 					}
 					}
 
@@ -322,7 +312,7 @@
 					var arrow =
 					document.getElementById("x" +(ids[i]));
 					arrow.src =
-					"images/RightArrowBlue.png";
+					"assets/RightArrowBlue.png";
 					}
 					}
 
@@ -337,10 +327,10 @@
 					"none") {
 					my_obj.style.display = "block";
 					arrow.src =
-					"images/DownArrowBlue.png";
+					"assets/DownArrowBlue.png";
 					} else {
 					my_obj.style.display = "none";
-					arrow.src = "images/RightArrowBlue.png";
+					arrow.src = "assets/RightArrowBlue.png";
 					}
 					};</script>
 				<!-- END COLLAPSIBLE FUNCTION -->
@@ -811,7 +801,7 @@
                     <xsl:text>cursor:pointer; color:#404040; text-decoration:none;</xsl:text>
                 </xsl:attribute>
 				<img id="xcollapsible_overview" class="hiddenprint"
-					src="images/DownArrowBlue.png" border="0" height="10px"
+					src="assets/DownArrowBlue.png" border="0" height="10px"
 					align="bottom" alt="Expand/Collapse" hspace="0" vspace="0" />
 				<xsl:value-of select="head" />
 			</xsl:element>
@@ -941,7 +931,7 @@
                     <xsl:text>cursor:pointer; color:#404040; text-decoration:none;</xsl:text>
                 </xsl:attribute>
 				<img id="xcollapsiblebioghist" class="hiddenprint"
-					src="images/DownArrowBlue.png" border="0" height="10px"
+					src="assets/DownArrowBlue.png" border="0" height="10px"
 					alt="Expand/Collapse" align="bottom" hspace="0" vspace="0" />
 				<xsl:value-of select="head" />
 			</xsl:element>
@@ -971,7 +961,7 @@
 						<xsl:attribute name="style">
                             <xsl:text>cursor:pointer; color:#3a6894; text-decoration:none;</xsl:text>
                         </xsl:attribute>
-						<img class="hiddenprint" src="images/DownArrowBlue.png"
+						<img class="hiddenprint" src="assets/DownArrowBlue.png"
 							border="0" height="9px" alt="Collapse/Expand" align="bottom"
 							hspace="0" vspace="0">
 							<xsl:attribute name="id">xcollapsiblebioghistsubsection<xsl:number
@@ -1094,7 +1084,7 @@
                     <xsl:text>cursor:pointer; color:#404040; text-decoration:none;</xsl:text>
                 </xsl:attribute>
 				<img id="xcollapsiblescopecontent" class="hiddenprint"
-					src="images/DownArrowBlue.png" border="0" height="10x"
+					src="assets/DownArrowBlue.png" border="0" height="10x"
 					align="bottom" alt="Expand/Collapse" hspace="0" vspace="0" />
 				<xsl:value-of select="head" />
 			</xsl:element>
@@ -1124,7 +1114,7 @@
 							<xsl:attribute name="style">
                             <xsl:text>cursor:pointer; color:#3a6894; text-decoration:none;</xsl:text>
                         </xsl:attribute>
-							<img class="hiddenprint" src="images/DownArrowBlue.png"
+							<img class="hiddenprint" src="assets/DownArrowBlue.png"
 								border="0" height="9px" alt="Collapse/Expand" align="bottom"
 								hspace="0" vspace="0">
 								<xsl:attribute name="id">xcollapsiblescopecontentsubsection<xsl:number
@@ -1174,7 +1164,7 @@
                     <xsl:text>cursor:pointer; color:#404040; text-decoration:none</xsl:text>
                 </xsl:attribute>
 				<img id="xcollapsiblearrangement" class="hiddenprint"
-					src="images/DownArrowBlue.png" border="0" height="10px"
+					src="assets/DownArrowBlue.png" border="0" height="10px"
 					align="bottom" alt="Expand/Collapse" hspace="0" vspace="0" />
 				<xsl:value-of select="head" />
 			</xsl:element>
@@ -1293,7 +1283,7 @@
                     <xsl:text>cursor:pointer; color:#404040; text-decoration:none;</xsl:text>
                 </xsl:attribute>
 				<img id="xcollapsibleotherfindaid" class="hiddenprint"
-					src="images/DownArrowBlue.png" border="0" height="10px"
+					src="assets/DownArrowBlue.png" border="0" height="10px"
 					align="bottom" alt="Expand/Collapse" hspace="0" vspace="0" />
 				<xsl:value-of select="head" />
 			</xsl:element>
@@ -1331,7 +1321,7 @@
                     <xsl:text>cursor:pointer; color:#404040; text-decoration:none;</xsl:text>
                 </xsl:attribute>
 				<img id="xcollapsibledescgrp" class="hiddenprint"
-					src="images/DownArrowBlue.png" border="0" height="10px"
+					src="assets/DownArrowBlue.png" border="0" height="10px"
 					align="bottom" alt="Expand/Collapse" hspace="0" vspace="0" />
 				<xsl:value-of select="head" />
 			</xsl:element>
@@ -2967,7 +2957,7 @@
 						<xsl:attribute name="style">
                                 <xsl:text>cursor:pointer; color: #585858; text-decoration:none;</xsl:text>
                             </xsl:attribute>
-						<img class="hiddenprint" src="images/DownArrowBlue.png"
+						<img class="hiddenprint" src="assets/DownArrowBlue.png"
 							border="0" height="9px" align="bottom" alt="Expand/Collapse"
 							hspace="0" vspace="0">
 							<xsl:attribute name="id">xcollapsiblec01<xsl:number
@@ -3028,7 +3018,7 @@
                             <xsl:attribute name="style">
                                 <xsl:text>cursor:pointer; color:#3a6894; text-decoration:none;</xsl:text>
                             </xsl:attribute>
-                            <img class="hiddenprint" src="images/DownArrowBlue.png" border="0"
+                            <img class="hiddenprint" src="assets/DownArrowBlue.png" border="0"
                                 height="9px" align="bottom" alt="Expand/Collapse" hspace="0" vspace="0">
                                 <xsl:attribute name="id">xcollapsiblesubseries<xsl:number level="any" from="dsc" format="1" count="c01/c02[@level='subseries']"/>
                                 </xsl:attribute>
@@ -4569,7 +4559,7 @@
                     <xsl:text>cursor:pointer; color:#404040; text-decoration:none;</xsl:text>
                 </xsl:attribute>
                 <img id="xcollapsiblerelatedmaterial" class="hiddenprint"
-                    src="images/DownArrowBlue.png" border="0" height="10px" align="bottom" alt="Expand/Collapse" hspace="0" vspace="0"/>
+                    src="assets/DownArrowBlue.png" border="0" height="10px" align="bottom" alt="Expand/Collapse" hspace="0" vspace="0"/>
                 <xsl:value-of select="head"/>
             </xsl:element>
             <!-- END  collapsiblerelatedmaterialFunction -->            
@@ -4602,7 +4592,7 @@
                     <xsl:text>cursor:pointer; color:#404040; text-decoration:none</xsl:text>
                 </xsl:attribute>
                 <img id="xcollapsibleseparatedmaterial" class="hiddenprint"
-                    src="images/DownArrowBlue.png" border="0" height="10px" align="bottom" alt="Expand/Collapse" hspace="0" vspace="0"/>
+                    src="assets/DownArrowBlue.png" border="0" height="10px" align="bottom" alt="Expand/Collapse" hspace="0" vspace="0"/>
                 <xsl:value-of select="head"/>
             </xsl:element>
             <!-- END collapsibleseparatedmaterial Function  -->
@@ -4636,7 +4626,7 @@
                     <xsl:text>cursor:pointer; color:#404040; text-decoration:none;</xsl:text>
                 </xsl:attribute>
                 <img id="xcollapsiblecontrolaccess" class="hiddenprint"
-                    src="images/DownArrowBlue.png" border="0" height="10px"  align="bottom" alt="Expand/Collapse" hspace="0" vspace="0"/>
+                    src="assets/DownArrowBlue.png" border="0" height="10px"  align="bottom" alt="Expand/Collapse" hspace="0" vspace="0"/>
                 <xsl:value-of select="head"/>
             </xsl:element>
         </h2>

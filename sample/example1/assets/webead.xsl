@@ -1508,10 +1508,10 @@
 	<xsl:template name="fs-dao">
 
 		<xsl:choose>
-			<xsl:when test="@type='compound'">
+			<xsl:when test="@role='compound'">
 				<xsl:call-template name="fs-dao-compound" />
 			</xsl:when>
-			<xsl:when test="@type='nmr'">
+			<xsl:when test="starts-with(@role,'nmr:')">
 				<xsl:call-template name="fs-dao-nmr" />
 			</xsl:when>
 			<xsl:otherwise>
@@ -1526,14 +1526,14 @@
 		<xsl:for-each select="daodesc/note">
 			<xsl:choose>
 				<xsl:when test="@type='chem-name'">
-				<xsl:variable name="chemName" select="."></xsl:variable>
+				<xsl:variable name="chemName" select="p"></xsl:variable>
 					<tr>
 						<td colspan="20">
 							<xsl:element name="span">
 								<xsl:attribute name="style">
                     						<xsl:text>font-size:12pt;font-weight:bold;text-decoration:none;color:blue</xsl:text>
                 						</xsl:attribute>
-								<xsl:value-of select='.' />
+								<xsl:value-of select='p' />
 							</xsl:element>
 						</td>
 					</tr>
@@ -1542,8 +1542,7 @@
 						<td colspan="19" valign="top">
 							<img>
 								<xsl:attribute name="src">https://cactus.nci.nih.gov/chemical/structure/<xsl:value-of
-									select='.' />/image?height=100
-   										</xsl:attribute>
+									select='p' />/image</xsl:attribute>
 							</img>
 
 						</td>
@@ -1575,7 +1574,7 @@
 								<xsl:attribute name="target">
                     						<xsl:text>_blank</xsl:text>
                 						</xsl:attribute>
-								<xsl:attribute name="href">https://chemapps.stolaf.edu/jmol/jmol.php?model=<xsl:value-of select='.' />
+								<xsl:attribute name="href">https://chemapps.stolaf.edu/jmol/jmol.php?model=<xsl:value-of select='p' />
    										</xsl:attribute>
 								<xsl:attribute name="style">
                     						<xsl:text>font-weight:bold;text-decoration:none;color:blue</xsl:text>
@@ -1586,7 +1585,7 @@
 						<xsl:when test="@type='chem-inchi'">
 							<xsl:element name="a">
 								<xsl:attribute name="href">
-										javascript:alert('<xsl:value-of select='.'></xsl:value-of>')
+										javascript:alert('<xsl:value-of select='p'></xsl:value-of>')
                 						</xsl:attribute>
 								<xsl:attribute name="style">
                     						<xsl:text>font-weight:bold;text-decoration:none;color:blue</xsl:text>
@@ -1597,7 +1596,7 @@
 						<xsl:when test="@type='chem-inchikey'">
 							<xsl:element name="a">
 								<xsl:attribute name="href">
-										javascript:alert('<xsl:value-of select='.'></xsl:value-of>')
+										javascript:alert('<xsl:value-of select='p'></xsl:value-of>')
                 						</xsl:attribute>
 								<xsl:attribute name="style">
                     						<xsl:text>font-weight:bold;text-decoration:none;color:blue</xsl:text>
@@ -1638,16 +1637,16 @@
 			<td>
 				<xsl:choose>
 					<xsl:when test="@type='type'">
-						<xsl:value-of select="." />
+						<xsl:value-of select="p" />
 					</xsl:when>
 					<xsl:when test="@type='filename'">
-						<xsl:value-of select="." />
+						<xsl:value-of select="p" />
 					</xsl:when>
 					<xsl:when test="@type='size'">
-						<xsl:value-of select="." />
+						<xsl:value-of select="p" />
 					</xsl:when>
 					<xsl:when test="@type='mime-type'">
-						<xsl:value-of select="." />
+						<xsl:value-of select="p" />
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:apply-templates />
